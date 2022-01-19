@@ -161,16 +161,15 @@
 
 **Callback functions**
 
-NodeJS uses asynchronous callback functions and a callback function is called at the completion of a task.
+	Node.js uses asynchronous callback functions and a callback function is called at the completion of a task.
 
-A callback function is a function you pass into another function so that function can call it at a later time.
+	A callback function is a function you pass into another function so that function can call it at a later time.
 
-Using asynchronous callback functions, we can run other fucntions while the function is waiting for activities like network requests to finish.
+	Asynchronous callback functions replace the use of the return instruction.
 
-Asynchronous callback functions replace the use of the return instruction.
+	Using asynchronous callback functions, we can run other fucntions while the function is waiting for activities like network requests to finish.
 
-
-An example callback function using setTimeout function.
+	An example callback function using setTimeout function.
 
 ```
 
